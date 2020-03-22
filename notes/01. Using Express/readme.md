@@ -20,10 +20,10 @@ cd Notes\01. Using Express\
 npm install
 
 To run the app, simply write
-
 ```
-node index.js
 ```bash
+node index.js
+```
 
 <pre>
 Made with ♥ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
