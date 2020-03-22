@@ -14,9 +14,7 @@ Clone the repo and install the dependencies.
 ```bash
 git clone https://github.com/ishandeveloper/MERN-Stack-Development.git
 cd Notes\01. Using Express\
-```
 
-```bash
 npm install
 ```
 To run the app, simply write
