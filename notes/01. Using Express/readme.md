@@ -24,3 +24,9 @@ To run the app, simply write
 ```
 node index.js
 ```bash
+
+<pre>
+Made with ♥ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
+</pre>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandeveloper)
