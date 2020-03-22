@@ -18,9 +18,9 @@ cd Notes\01. Using Express\
 
 ```bash
 npm install
-
-To run the app, simply write
 ```
+To run the app, simply write
+
 ```bash
 node index.js
 ```
