@@ -1,11 +1,12 @@
-## Using Express
+## Connecting MongoDB
 
-The simple node.js app teaches the very basics of how to create a server using express module.
+The simple node.js app teaches the very basics of how to cconnect your node app with MongoDB database and create an express server at the same time.
 
 ## Prerequisites
 
 * Node 8
 * Git
+* MongoDB Community Server
 
 ## Setup
 
@@ -13,7 +14,7 @@ Clone the repo and install the dependencies.
 
 ```bash
 git clone https://github.com/ishandeveloper/MERN-Stack-Development.git
-cd Notes\01. Using Express\
+cd Notes\02. MongoDB Connection\
 
 npm install
 ```
