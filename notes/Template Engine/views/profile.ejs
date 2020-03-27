@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <style type="text/css">
+        body{
+            background: skyblue;
+            font-family: 'Segoe UI',sans-serif;
+            color:white;
+            text-align: center;
+        }
+        h1{
+            font-size: 3.5em;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 1.5em;
+            font-style: italic;
+        }
+        p span{
+            color:red;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Hi, <%= person %>!</h1>
+        <p> <strong>AGE:</strong><%=data.age%>
+            <strong>PROFESSION: </strong><%=data.job%>
+        </p>
+    </body>
+</html>
