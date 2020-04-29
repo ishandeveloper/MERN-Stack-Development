@@ -5,7 +5,11 @@ var greetings="Good Morning!";
 var style = {
     color: "red",
     fontSize: "3em",
-    textAlign: "center"
+    textAlign: "center",
+    height:"100px",
+    margin:"25% 0",
+    
+    borderBottom:"5px solid black"
 }
     const time=new Date().getHours();
     time <= 12 ? ((greetings = "Good Morning !") && (style.color = "red")) : time <= 18 ? ((greetings = "Good Afternoon !") && (style.color = "blue")) : ((greetings = "Good Evening !" && (style.color = "green")));
