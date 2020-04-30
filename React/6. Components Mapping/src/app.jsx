@@ -1,31 +1,17 @@
 import React from "react";
 import Avatar from "./components/avatar";
+import people from "./people";
+
+function createAvatar(contact) {
+  return <Avatar
+    title={contact.title}
+    subtitle={contact.subtitle}
+    description={contact.description}
+  />;
+}
 
 function App() {
-  return (
-    <ul className="collection">
-      <Avatar
-        title="Alisha"
-        subtitle="alisha@example.com"
-        description="Mumbai, India"
-      />
-      <Avatar
-        title="Andrew"
-        subtitle="andrew@example.com"
-        description="New York, USA"
-      />
-      <Avatar
-        title="John"
-        subtitle="john@example.com"
-        description="Phillipines, Indonesia"
-      />
-      <Avatar
-        title="Chirag"
-        subtitle="chirag@example.com"
-        description="Delhi, India"
-      />
-    </ul>
-  );
+  return <ul className="collection">{people.map(createAvatar)}</ul>;
 }
 
 export default App;
