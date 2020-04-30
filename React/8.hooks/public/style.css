@@ -19,9 +19,7 @@ body {
     justify-content: center;
 
 }
-.container{
-    display: grid;
-}
+
 .count{
     font-size: 10em;
     color:white;
@@ -35,7 +33,11 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.5s;
+    height: 50px;
+    text-align: center;
+    width: 50px;
     outline: none;
+    margin:0 10px;
 }
 .count-btn:hover{
     background: white;
