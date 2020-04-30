@@ -35,6 +35,7 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.5s;
+    outline: none;
 }
 .count-btn:hover{
     background: white;
