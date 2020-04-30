@@ -2,7 +2,7 @@ import React from 'react';
 
 function Avatar(props) {
     return  <li class="collection-item avatar">
-    <img src="https://source.unsplash.com/100x100?person" alt="" class="circle" />
+    <img src="https://source.unsplash.com/100x100?person,people,man,human,woman" alt="" class="circle" />
     <span class="title">{props.title}</span>
     <p>{props.subtitle}<br/>
        {props.description}
