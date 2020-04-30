@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html,
 body {
     height: 100%;
+}
+*{
+    font-family: 'Poppins',sans-serif;
 }
 .text-center{
     width: 100vw;
@@ -10,47 +14,29 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #f5f5f5;
-}
-.form-signin input[type="password"]{
-    margin-bottom: 0px!important;
-}
-.btn:not(:disabled):not(.disabled) {
-    margin-top:10px!important;
-}
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
+    overflow: hidden;
+    background-color: #0d1521;
+    justify-content: center;
 
-.form-signin .checkbox {
-    font-weight: 400;
 }
-
-.form-signin .form-control {
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
+.container{
+    display: grid;
 }
-
-.form-signin .form-control:focus {
-    z-index: 2;
+.count{
+    font-size: 10em;
+    color:white;
 }
-
-.form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+.count-btn{
+    background: transparent;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.5em;
+    border:1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
-
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.count-btn:hover{
+    background: white;
+    color:#0d1521;
 }
