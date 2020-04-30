@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
-var [count,setCount]=React.useState(0);
+  var [count, setCount] = React.useState(0);
 
   function increase() {
     setCount(++count);
