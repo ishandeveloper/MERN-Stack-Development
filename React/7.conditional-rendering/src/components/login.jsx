@@ -1,6 +1,8 @@
 import React from "react";
+import Btn from './btn';
+import InputBox from './inputbox';
 
-function Login() {
+function Login(props) {
   return (
     <form className="form-signin md-12">
       <img
@@ -14,32 +16,10 @@ function Login() {
       <label htmlFor="inputEmail" className="sr-only">
         Email address
       </label>
-      <input
-        type="email"
-        id="inputEmail"
-        className="form-control"
-        placeholder="Email address"
-        required
-        autoFocus
-      />
-      <label htmlFor="inputPassword" className="sr-only">
-        Password
-      </label>
-      <input
-        type="password"
-        id="inputPassword"
-        className="form-control"
-        placeholder="Password"
-        required
-      />
-      <div className="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me" /> Remember me
-        </label>
-      </div>
-      <button className="btn btn-lg btn-primary btn-block" type="submit">
-        Sign in
-      </button>
+      <InputBox placeholder="Username"/>
+      <InputBox placeholder="Password" type="password"/>
+      {props.register?<InputBox placeholder="Confirm Password" type="password"/>:null}
+      {props.register?<Btn value="Register" />:<Btn value="Login"/>}
       <p className="mt-5 mb-3 text-muted">
         &copy; 2020. Ishan Inc. All Rights Reserved.
       </p>
