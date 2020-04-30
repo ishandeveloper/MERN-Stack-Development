@@ -1,11 +1,11 @@
 import React from "react";
 import Login from "./components/login";
-import Message from './components/message';
+var isloggedin=false;
+
 function App() {
   return (
     <div className="text-center">
-      {/* <Login /> */}
-      <Message/>
+      {isloggedin?<Login />:<Login register="true"/>}
     </div>
   );
 }
